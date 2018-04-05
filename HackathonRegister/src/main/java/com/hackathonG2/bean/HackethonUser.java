@@ -6,6 +6,7 @@ public class HackethonUser {
 	private String name;
 	private String email;
 	private String skills;
+	private String password;
 	
 	public HackethonUser(Long sapId, String name, String email, String skills) {
 		super();
@@ -40,5 +41,12 @@ public class HackethonUser {
 		this.skills = skills;
 	}
 
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
 	
 }
